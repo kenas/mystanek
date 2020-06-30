@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media (max-width: 479px) {
+  .navbar {
+    height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto 3%;
+  }
+  .navbar .logo {
+    padding-top: 2rem;
+  }
+  .navbar ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 2.3rem 0;
+  }
+  .navbar ul li {
+    text-align: center;
+  }
+  .navbar ul li a {
+    display: block;
+    padding: 0.6rem;
+    text-decoration: none;
+    color: silver;
+  }
+  .navbar ul li a:hover {
+    background-color: slategray;
+    color: white;
+    -webkit-transition: ease-in .1s;
+    transition: ease-in .1s;
+  }
+  .hamburger-container {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    margin: 1rem;
+    cursor: pointer;
+  }
+  .hamburger-container .hamburger {
+    display: block;
+    border: 1px solid silver;
+    width: 26px;
+    margin-bottom: 4px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
